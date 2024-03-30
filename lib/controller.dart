@@ -18,8 +18,7 @@ class Controller extends GetxController {
     if (text.isEmpty) {
       debugPrint('Message is empty');
     } else {
-      print(messages);
-      addMessage(
+         addMessage(
           Message(
             text: DialogText(text: [text]),
           ),
